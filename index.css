@@ -13,7 +13,6 @@ html{
     height: 675px;
     width: 100%;
     background-image: url("./Assets/herocover.png");
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
    
