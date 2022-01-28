@@ -12,11 +12,11 @@ html{
     color: white;
     height: 675px;
     width: 100%;
-    background-image: url("../Assets/#hero-cover.3.png");
+    background-image: url("./Assets/herocover.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-   background-color: black;
+   
     
 
 
@@ -133,4 +133,30 @@ html{
     height: 275px;
     background-color: white;
     padding: 75px;
+}
+/*styling the third section of the page */
+.page4{
+    position: relative;
+    top: 275px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    background-color: red;
+
+}
+.section1 {
+    text-align: center;
+    padding: 50px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.section2 div{
+    background-color: white;
+    border: solid green 2px;
+    
+
 }
