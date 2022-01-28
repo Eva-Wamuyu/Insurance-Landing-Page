@@ -168,3 +168,19 @@ html{
     width: 175px;
 
 }
+.section3{
+
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+.section3 img{
+    display: inline;
+    width: 75px;
+    margin: 0 60px;
+    
+}
+
+.section3 img:last-child{
+    margin-right: 0;
+}
