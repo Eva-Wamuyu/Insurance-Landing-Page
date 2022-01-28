@@ -124,3 +124,13 @@ html{
     padding: 25px;
     box-shadow: 2px 2px 2px white;
 }
+/*styling the second section of the page */
+.section{
+    position: relative;
+    top: 275px;
+    display: flex;
+    justify-content: space-around;
+    height: 275px;
+    background-color: white;
+    padding: 75px;
+}
