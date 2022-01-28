@@ -3,43 +3,96 @@
     padding: 0;
     margin: 0;
 }
-.cover{
+/*styles for the first page*/
+.page1{
     color: white;
-    background-image: url();
+    height: 675px;
+    width: 100%;
+    background-image: url("../Assets/#hero-cover.3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-color: black;
+    
+
+
     
 }
 .cover>.brand{
     font-weight: bold;
     font-size: 25px;
+    padding: 25px;
     
 
 }
 .cover li{
     display: inline;
     list-style-type: none;
-    padding: 0 25px;
+    padding: 45px;
     
 
 }
 .cover .ul1{
     padding-top: 25px;
     
-    
-    
+      
 }
-
 .ul2{
     float: right;
     padding: 25px;
+    margin-right: 50px;
 }
-.cover p, .ul1{
+.cover>p, .ul1{
     float: left;
+
     
-}
-.cover p{
-    padding: 25px;
 }
 .cover .ul1>li>a, .ul2>li>a{
     text-decoration: none;
-    /* color: white; */
+    color: white;
+    font-weight: bold;
+}
+.ul2 li:nth-child(2){
+    background-color: #23A6F0;
+    padding: 25px;
+    border-radius: 5px;
+    
+}
+.page1content{
+    /* background-color: red;  A style to help manipulate the div and position it properly*/
+    position: relative;
+    top: 200px;
+    right: 12.5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+
+}
+.page1content .major{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.page1content .minor{
+    font-size: 25px;
+}
+.page1content a{
+    color: white;
+    text-decoration: none;
+}
+.page1content button{
+    border: solid 1px white;
+    height: 55px;
+    width: 200px;
+    border-radius: 25px;
+    margin: 12.5px;
+    
+
+    
+}
+.get{
+    background-color:#23A6F0;
+    border: none;
+    
 }
