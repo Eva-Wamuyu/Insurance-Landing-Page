@@ -184,3 +184,36 @@ html{
 .section3 img:last-child{
     margin-right: 0;
 }
+
+.section4{
+    background-image: linear-gradient(to right, #252B42, purple);
+    height: 100px;
+    margin: 12.5px 250px;
+    color: white;
+    padding: 25px;
+    
+}
+.section4 p{
+    font-weight: bold;
+    font-size: 1.5em;
+    float: left;
+
+}
+
+.section4 input[type="text"], button{
+    height: 50px;
+    float: right;
+    
+
+}
+.section4 .div{
+    border: solid white 2px;
+}
+.section4 input[type="text"]{
+    width: 275px;
+}
+.section4 button{
+    width: 125px;
+    color: white;
+    background-color: #23A6F0;
+}
