@@ -70,24 +70,31 @@ html{
 .page1content{
     
     position: relative;
-    right: 12.5%;
+    right: 1.5%;
     top: 100px;
     height: 500px;
-    width: 60%;
-    margin-left: 30%;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 125px;
+
+
     
-    
-   
-   
 
 }
 .page1content .major{
     text-transform: capitalize;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 35px;
+    
+
 }
 .page1content .minor{
     font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
 }
 
 .learn{
@@ -109,6 +116,7 @@ html{
     position: relative;
     left: 50px;
     top: 125px;
+    margin: 12px;
   
    
 }
@@ -143,14 +151,15 @@ html{
 /*styling the second section of the page */
 .section{
     position: relative;
-    top: 275px;
+    top: 250px;
     display: flex;
     justify-content: center;
-    height: 275px;
+    height: 285px;
     background-color: white;
     text-align: center;
 }
 .sectionA{
+    
     width: 250px;
     margin: 125px;
 }
@@ -210,7 +219,7 @@ html{
 }
 
 .section4{
-    background-image: linear-gradient(to right, #252B42, purple);
+    background-image: linear-gradient(to right, #252B42, rgb(128, 0, 113));
     height: 100px;
     margin: 12.5px 250px;
     color: white;
