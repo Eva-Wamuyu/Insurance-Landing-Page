@@ -397,7 +397,18 @@ form{
 
 
 footer{
-    background-color: green;
     position: relative;
     top: 885px;
+    margin-top: 15px;
+    padding: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+footer img{
+    height: 18px;
+}
+footer>div{
+    float: right;
+   
+    
 }
