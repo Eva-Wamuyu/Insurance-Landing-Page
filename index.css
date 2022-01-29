@@ -278,7 +278,7 @@ html{
     top: 350px;
     margin-top: 50px;
     color: white;
-    height: 575px;
+    height: 675px;
 }
 
 .world img{
@@ -307,3 +307,28 @@ html{
     padding: 50px;
 }
 
+.book{
+    background-color: white;
+    height: 525px;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 65%;
+
+    
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float: left;
+    height: 525px;
+}
+.book img{
+    height: 525px;
+    float: left;
+    
+    
+    
+
+}
