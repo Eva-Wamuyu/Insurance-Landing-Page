@@ -404,7 +404,7 @@ footer{
     margin-left: 20%;
     margin-right: 20%;
 }
-footer img{
+footer img, .footer img{
     height: 18px;
 }
 footer>div{
