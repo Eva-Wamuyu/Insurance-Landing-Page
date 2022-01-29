@@ -310,11 +310,11 @@ html{
 .book{
     background-color: white;
     height: 525px;
+    color: rgb(0,0,0);
     position: absolute;
     left: 25%;
     right: 25%;
     top: 65%;
-
     
 }
 form{
@@ -323,12 +323,48 @@ form{
     flex-direction: column;
     float: left;
     height: 525px;
+    
 }
 .book img{
     height: 525px;
     float: left;
     
+
+}
+
+
+
+.bottomworld{
+    position: relative;
+    top: 875px;
+    color: #000;
+    background-color: red;
+    height: 75px;
     
     
 
+}
+
+.bottomworld .left{
+    float: left;
+}
+.bottomworld .right{
+    float: right;
+}
+
+
+footer{
+    background-color: white;
+    position: relative;
+    top: 875px;
+    display: flex;
+    justify-content: space-around;
+}
+footer li{
+    
+    list-style: none;
+}
+footer li a{
+    text-decoration: none;
+    color: black;
 }
