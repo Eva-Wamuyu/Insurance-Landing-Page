@@ -249,6 +249,10 @@ html{
     padding: 50px;
     
 }
+.price1 ul{
+    list-style-image: url("./Assets/greentick.jpg");
+
+}
 .price1 h2{
     font-size: 1.75em;
 
@@ -351,7 +355,7 @@ form legend{
     text-align: center;
 
 }
-form input[type]{
+form .input{
     height: 50px;
     margin: 2.5px 0;
     background-color: whitesmoke;
