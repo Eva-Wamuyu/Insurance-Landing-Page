@@ -338,8 +338,8 @@ form{
     position: relative;
     top: 875px;
     color: #000;
-    background-color: red;
     height: 75px;
+    
     
     
 
@@ -347,31 +347,57 @@ form{
 
 .bottomworld .left{
     float: left;
+    margin-left: 20%;
+
+
+    
 }
+.bottomworld > .left > .heading{
+    font-size: 1.25em;
+    font-weight: 800;
+}
+
 .bottomworld .right{
     float: right;
+    margin-right: 20%;
+    background-color: #23A6F0;
+    padding: 15px;
+    border-radius: 2.5px;
+    
+}
+.bottomworld .right a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer{
+    background-color: white;
+    position: relative;
+    top: 885px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.footer ul{
+    margin: 0 50px;
+
+}
+.footer li{
+    padding: 5px;
+    list-style: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: black;
+}
+.footer li:first-child{
+    font-weight: 900;
 }
 
 
 footer{
-    background-color: white;
+    background-color: green;
     position: relative;
-    top: 875px;
-    display: flex;
-    justify-content: center;
-}
-footer ul{
-    margin: 0 50px;
-
-}
-footer li{
-    padding: 5px;
-    list-style: none;
-}
-footer li a{
-    text-decoration: none;
-    color: black;
-}
-footer li:first-child{
-    font-weight: 900;
+    top: 885px;
 }
