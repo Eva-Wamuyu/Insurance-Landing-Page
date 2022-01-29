@@ -270,3 +270,40 @@ html{
 .price strong{
     color: #23A6F0
 }
+
+
+.world{
+    background-color: #252B42;
+    position: relative;
+    top: 350px;
+    margin-top: 50px;
+    color: white;
+    height: 575px;
+}
+
+.world img{
+    height: 225px;
+    
+    
+}
+.topworld h3{
+    
+    
+    margin-left: 125px;
+    font-size: 2em;
+}
+
+.topworld p{
+    float: left;
+    text-align: justify;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+.topworld img{
+    float: right;
+    margin-right: 125px;
+}
+.topworld{
+    padding: 50px;
+}
+
