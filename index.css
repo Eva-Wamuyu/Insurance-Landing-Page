@@ -7,6 +7,7 @@
 html{
     background-color: whitesmoke;
     font-family: "Montserrat";
+    font-size: 15px;
 
 }
 /*styles for the first page*/
@@ -91,22 +92,25 @@ html{
 
 .learn{
     background-color: rgba(0,0,0,0);
+    border: solid white 2px;
+    padding: 15px 30px;
+    
 }
 .get{
     background-color: #23A6F0;
+    padding: 15px;
     
 }
 .get, .learn{
-    border: solid black 2px;
+   
     border-radius: 15px;
     color: white;
-    padding: 12.5px;
+   
     text-decoration: none;
     position: relative;
     left: 50px;
     top: 125px;
-
-    
+  
    
 }
 
@@ -337,8 +341,34 @@ form{
     flex-direction: column;
     float: left;
     height: 525px;
+    width: 650px;
+    padding: 25px;
+    
     
 }
+form legend{
+    font-weight: 800;
+    text-align: center;
+
+}
+form input[type]{
+    height: 50px;
+    margin: 2.5px 0;
+    background-color: whitesmoke;
+    border: none;
+}
+form button{
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+form label{
+    margin: 7.5px;
+}
+
+
+
 .book img{
     height: 525px;
     float: left;
