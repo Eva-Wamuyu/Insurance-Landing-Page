@@ -7,7 +7,7 @@ This is a design of an insurance landing page.
 ## Setup/Installation Requirements
 * Requires connection to the internet
 * A web browser
-* Click on this link here
+* Click on this link [here](https://eva-wamuyu.github.io/Insurance-Landing-Page/)
 * You are good to go
 
 ## technologies
