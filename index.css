@@ -61,6 +61,12 @@ html{
     color: white;
     font-weight: bold;
 }
+.cover .ul1>li>a:hover{
+    border: solid 1px #252B42;
+    padding: 25px;
+    border-radius: 12px;
+}
+
 .ul2 li:nth-child(2){
     background-color: #23A6F0;
     padding: 25px;
@@ -253,6 +259,19 @@ html{
     background-color: #23A6F0;
 }
 
+.pricing a{
+    text-decoration: none;
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 7.5px;
+    padding: 12.5px 75px;
+    margin-top: 500px;
+
+}
+.pricing ul{
+    margin-bottom: 50px;
+}
+
 
 
 .price1{
@@ -264,8 +283,10 @@ html{
     padding: 50px;
     
 }
-.price1 ul{
-    list-style-image: url("./Assets/greentick.jpg");
+.pricing ul{
+    /*
+    */
+    
 
 }
 .price1 h2{
@@ -474,4 +495,28 @@ footer>div{
     float: right;
    
     
+}
+
+
+/*mbile phone design */
+@media only screen and (max-width:480px){
+    body{
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .page1{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer div{
+        position: absolute;
+        bottom: 0;
+    }
 }
