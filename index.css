@@ -452,8 +452,33 @@ form label{
     .bottomworld .right{
         float: none;
         padding: 0;
+        background-color: white;
     }
+
+
+.bottomworld .right a{
+    text-decoration: none;
+    color: white;
+    padding: 2.5%;
+    background-color: #23A6F0;
 }
+.bottomworld{
+    width: 100%;
+    height: 75%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
 .bottomworld .right a{
     text-decoration: none;
     color: white;
@@ -564,12 +589,6 @@ footer>div{
 }
 
 
-.page1content{
-    
-    flex-direction: column;
-    
-}
-
 .tabs, .section, .page4, .section2{
     
     flex-direction: column;
@@ -577,10 +596,18 @@ footer>div{
     
 }
 
-.section4 div{
-   
+.page4{
+    position: relative;
+    top: 275px;
+    flex-wrap: nowrap;
+    padding: 0;
+
+
+
 
 }
+
+
 .section{
     position: absolute;
     top: 100%;
@@ -612,14 +639,14 @@ footer>div{
 }
 
 .section4 input[type="text"]{
-    width: 60%;
+    width: 65%;
     float: left;
     margin: 0;
 
     
 }
 .section4 button{
-    width: 20%px;
+    width: 35%;
     margin: 0;
     color: white;
     float: right;
@@ -648,30 +675,30 @@ footer>div{
     padding: 12.5%;
     text-align: center;
     background-color: white;
-    margin: 2.5%;
+    margin: 0;
     width: 95%;
     height: auto;
     position: relative;
     right: 150%;
-    
     border: solid whitesmoke 1px;
 }
-
+.person1, .person2, .person3{
+    margin-left: 0%;
+}
 
 .section{
     position: static;
-    top: 250px;
-    display: flex;
-    
-    height: 285px;
+    flex-direction: column;
+    height: 100%;
     background-color: white;
     text-align: center;
 }
 .sectionA{
-    
+    margin-top: 10.5%;
+    margin-left: 0;
     width: 100%;
-    height: 100%;
-    background-color: red;
+    height: 50%;
+
 }
 
 .page1{
@@ -689,13 +716,16 @@ footer>div{
 .tabs{
     position: static;
     height: 50%;
-    width: 80%;
+    width: 90%;
     text-align: left;
-    margin: 10%;
+    margin-top: 100%;
+    
 
 }
 .tabs>div{
-    margin: 2%;
+    display: block;
+    margin-top: 2.5%;
+    margin-left: 12.5%;
 }
 .topworld h3{
     margin: 0 0 25% 0;
@@ -719,7 +749,8 @@ footer>div{
     width: 100%;
     float: none;
     position: relative;
-    top: 45%;
+    top: 50%;
+    
     
 }
 
@@ -729,7 +760,7 @@ form{
     
     flex-direction: column;
     float: none;
-    background-color: red;
+    background-color: white;
     height: 100%;
     width: 100%;
     padding: 0;
@@ -760,6 +791,29 @@ form label{
 }
 
 
+.page1content{
+    
+    position: relative;
+    right: 1.5%;
+    top: 100px;
+    height: 50%;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    padding: 0 2.5%;
+
+}
+.page1content>div>a{
+    display: block;
+    width: 50%;
+    margin-left: 12.5%;
+}
+    
+.section1 {
+    text-align: center;
+    padding: 2.5%;
+}
+    
 
 
 
