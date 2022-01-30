@@ -433,7 +433,6 @@ form label{
     float: left;
     margin-left: 20%;
 
-
     
 }
 .bottomworld > .left > .heading{
@@ -448,6 +447,12 @@ form label{
     padding: 15px;
     border-radius: 2.5px;
     
+}
+@media only screen and (max-width:480px){
+    .bottomworld .right{
+        float: none;
+        padding: 0;
+    }
 }
 .bottomworld .right a{
     text-decoration: none;
@@ -512,6 +517,7 @@ footer>div{
 
 
     .footer{
+        
         display: flex;
         flex-direction: column;
     }
@@ -519,4 +525,246 @@ footer>div{
         position: absolute;
         bottom: 0;
     }
+
+    .bottomworld{
+        height: 50%;
+        margin-top: 100%;
+        
+    }
+    
+    .world .book{
+        flex-direction: column;
+        margin: 2px 0;
+        
+    }
+
+    .cover{
+        background-color: white;
+        height: 75%;
+        color: black;
+        text-align: center;
+        /* display: flex;
+        flex-direction: column; */
+    }
+.cover .ul1 li a{
+    display: block;
+    color: black;
+}
+.ul1{
+    position: relative;
+    left: 33%;
+    margin: 2.5% 5% 0 5%;
+}
+
+.ul2{
+    display: none;
+}
+.cover>.brand{
+    display: none;
+}
+
+
+.page1content{
+    
+    flex-direction: column;
+    
+}
+
+.tabs, .section, .page4, .section2{
+    
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.section4 div{
+   
+
+}
+.section{
+    position: absolute;
+    top: 100%;
+}
+
+.pricing a{
+    text-decoration: none;
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 7.5px;
+    padding: 8.5%;
+    margin-top: 25%;
+
+}
+.worldful {
+    display: flex;
+    flex-direction: column;
+
+}
+.worldfull .topworld{
+    display: flex;
+    flex-direction: column;
+}
+
+.section4{
+    margin: 0;
+    width: 100%;
+    height: 25%;
+}
+
+.section4 input[type="text"]{
+    width: 60%;
+    float: left;
+    margin: 0;
+
+    
+}
+.section4 button{
+    width: 20%px;
+    margin: 0;
+    color: white;
+    float: right;
+    background-color: #23A6F0;
+}
+.section3{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 25%;
+    
+}
+.section3 img{
+    display: block;
+    margin: 12.5%;
+
+    
+}
+.section2{
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+
+.section2 div{
+    padding: 12.5%;
+    text-align: center;
+    background-color: white;
+    margin: 2.5%;
+    width: 95%;
+    height: auto;
+    position: relative;
+    right: 150%;
+    
+    border: solid whitesmoke 1px;
+}
+
+
+.section{
+    position: static;
+    top: 250px;
+    display: flex;
+    
+    height: 285px;
+    background-color: white;
+    text-align: center;
+}
+.sectionA{
+    
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.page1{
+    color: white;
+    margin: 0;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+  
+    
+}
+
+
+.tabs{
+    position: static;
+    height: 50%;
+    width: 80%;
+    text-align: left;
+    margin: 10%;
+
+}
+.tabs>div{
+    margin: 2%;
+}
+.topworld h3{
+    margin: 0 0 25% 0;
+}
+
+.topworld p{
+    float: none;
+    text-align: justify;
+    margin: 0;
+    
+}
+.topworld img{
+    width: 100%;
+    margin-top: 25%;
+
+}
+.topworld{
+    padding: 50px;
+}
+.book img{
+    width: 100%;
+    float: none;
+    position: relative;
+    top: 45%;
+    
+}
+
+
+
+form{
+    
+    flex-direction: column;
+    float: none;
+    background-color: red;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin-top: 100%;
+
+    
+    
+}
+form legend{
+    font-weight: 800;
+    text-align: center;
+
+}
+form .input{
+    height: 50px;
+    margin: 2.5px 0;
+    background-color: whitesmoke;
+    border: none;
+}
+form button{
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+form label{
+    margin: 7.5px;
+}
+
+
+
+
+
+
+
+
+
 }
