@@ -171,6 +171,12 @@ html{
 }
 
 /*styling the third section of the page */
+.stars{
+    color: yellow;
+    margin-top: 5%;
+}
+
+
 .page4{
     position: relative;
     top: 275px;
